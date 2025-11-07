@@ -1,0 +1,298 @@
+{
+  "examples": [
+    {
+      "name": "Sistema Básico - 4 Níveis",
+      "description": "Sistema simples para a maioria dos projetos",
+      "priorities": [
+        {
+          "name": "Crítica",
+          "color": "#DC3545",
+          "description": "Problemas que bloqueiam o trabalho"
+        },
+        {
+          "name": "Alta",
+          "color": "#FD7E14",
+          "description": "Tarefas importantes com prazo curto"
+        },
+        {
+          "name": "Média",
+          "color": "#FFC107",
+          "description": "Tarefas importantes mas não urgentes"
+        },
+        {
+          "name": "Baixa",
+          "color": "#28A745",
+          "description": "Melhorias e tarefas futuras"
+        }
+      ]
+    },
+    {
+      "name": "Sistema Estendido - 5 Níveis",
+      "description": "Para projetos que precisam de mais granularidade",
+      "priorities": [
+        {
+          "name": "Urgente",
+          "color": "#C00000",
+          "description": "Requer ação imediata"
+        },
+        {
+          "name": "Alta",
+          "color": "#FF4444",
+          "description": "Alta prioridade"
+        },
+        {
+          "name": "Média",
+          "color": "#FFA500",
+          "description": "Prioridade média"
+        },
+        {
+          "name": "Baixa",
+          "color": "#FFD700",
+          "description": "Baixa prioridade"
+        },
+        {
+          "name": "Backlog",
+          "color": "#4CAF50",
+          "description": "Para fazer no futuro"
+        }
+      ]
+    },
+    {
+      "name": "MoSCoW Method",
+      "description": "Método popular de priorização",
+      "priorities": [
+        {
+          "name": "Must Have",
+          "color": "#E74C3C",
+          "description": "Deve ter - Crítico"
+        },
+        {
+          "name": "Should Have",
+          "color": "#F39C12",
+          "description": "Deveria ter - Importante"
+        },
+        {
+          "name": "Could Have",
+          "color": "#3498DB",
+          "description": "Poderia ter - Desejável"
+        },
+        {
+          "name": "Won't Have",
+          "color": "#95A5A6",
+          "description": "Não terá agora - Futuro"
+        }
+      ]
+    },
+    {
+      "name": "Eisenhower Matrix",
+      "description": "Baseado em urgência e importância",
+      "priorities": [
+        {
+          "name": "Urgente e Importante",
+          "color": "#E74C3C",
+          "description": "Faça primeiro"
+        },
+        {
+          "name": "Importante",
+          "color": "#F39C12",
+          "description": "Planeje quando fazer"
+        },
+        {
+          "name": "Urgente",
+          "color": "#3498DB",
+          "description": "Delegue se possível"
+        },
+        {
+          "name": "Não Urgente",
+          "color": "#95A5A6",
+          "description": "Elimine ou adie"
+        }
+      ]
+    },
+    {
+      "name": "Por Tipo de Tarefa",
+      "description": "Categorize por tipo de trabalho",
+      "priorities": [
+        {
+          "name": "Bug Crítico",
+          "color": "#E74C3C",
+          "description": "Bugs que impedem o uso"
+        },
+        {
+          "name": "Bug",
+          "color": "#F39C12",
+          "description": "Bugs não críticos"
+        },
+        {
+          "name": "Feature",
+          "color": "#3498DB",
+          "description": "Novas funcionalidades"
+        },
+        {
+          "name": "Melhoria",
+          "color": "#9B59B6",
+          "description": "Otimizações e melhorias"
+        },
+        {
+          "name": "Documentação",
+          "color": "#1ABC9C",
+          "description": "Documentação e guias"
+        },
+        {
+          "name": "Pesquisa",
+          "color": "#95A5A6",
+          "description": "Pesquisa e experimentos"
+        }
+      ]
+    },
+    {
+      "name": "Por Prazo",
+      "description": "Baseado em deadlines",
+      "priorities": [
+        {
+          "name": "Hoje",
+          "color": "#DC3545",
+          "description": "Deve ser feito hoje"
+        },
+        {
+          "name": "Esta Semana",
+          "color": "#FD7E14",
+          "description": "Prazo nesta semana"
+        },
+        {
+          "name": "Este Mês",
+          "color": "#FFC107",
+          "description": "Prazo neste mês"
+        },
+        {
+          "name": "Próximo Mês",
+          "color": "#28A745",
+          "description": "Pode esperar"
+        },
+        {
+          "name": "Futuro",
+          "color": "#6C757D",
+          "description": "Sem prazo definido"
+        }
+      ]
+    },
+    {
+      "name": "Scrum - Story Points",
+      "description": "Baseado em complexidade",
+      "priorities": [
+        {
+          "name": "XL - 8 pontos",
+          "color": "#DC3545",
+          "description": "Muito complexo"
+        },
+        {
+          "name": "L - 5 pontos",
+          "color": "#FD7E14",
+          "description": "Complexo"
+        },
+        {
+          "name": "M - 3 pontos",
+          "color": "#FFC107",
+          "description": "Médio"
+        },
+        {
+          "name": "S - 2 pontos",
+          "color": "#28A745",
+          "description": "Simples"
+        },
+        {
+          "name": "XS - 1 ponto",
+          "color": "#17A2B8",
+          "description": "Muito simples"
+        }
+      ]
+    },
+    {
+      "name": "Suporte ao Cliente",
+      "description": "Para equipes de atendimento",
+      "priorities": [
+        {
+          "name": "Emergência",
+          "color": "#DC3545",
+          "description": "Cliente VIP ou problema crítico"
+        },
+        {
+          "name": "Urgente",
+          "color": "#FD7E14",
+          "description": "Afeta múltiplos clientes"
+        },
+        {
+          "name": "Normal",
+          "color": "#FFC107",
+          "description": "Solicitação padrão"
+        },
+        {
+          "name": "Baixa",
+          "color": "#28A745",
+          "description": "Dúvida ou melhoria"
+        }
+      ]
+    }
+  ],
+  "color_palette": {
+    "red_tones": [
+      "#C00000",
+      "#DC3545",
+      "#E74C3C",
+      "#FF4444",
+      "#FF6B6B"
+    ],
+    "orange_tones": [
+      "#FD7E14",
+      "#F39C12",
+      "#FF8800",
+      "#FFA500",
+      "#FFB347"
+    ],
+    "yellow_tones": [
+      "#FFC107",
+      "#FFD700",
+      "#FFEB3B",
+      "#FFF176",
+      "#FFFACD"
+    ],
+    "green_tones": [
+      "#28A745",
+      "#4CAF50",
+      "#5CB85C",
+      "#7CB342",
+      "#81C784"
+    ],
+    "blue_tones": [
+      "#0079BF",
+      "#007BFF",
+      "#2196F3",
+      "#3498DB",
+      "#42A5F5"
+    ],
+    "purple_tones": [
+      "#6C5CE7",
+      "#9B59B6",
+      "#8E44AD",
+      "#AB47BC",
+      "#BA68C8"
+    ],
+    "gray_tones": [
+      "#495057",
+      "#6C757D",
+      "#95A5A6",
+      "#ADB5BD",
+      "#CED4DA"
+    ]
+  },
+  "tips": [
+    "Use de 3 a 6 níveis de prioridade para manter a simplicidade",
+    "Escolha cores contrastantes para fácil diferenciação",
+    "Mantenha nomes curtos (máximo 15 caracteres)",
+    "Documente o significado de cada nível para a equipe",
+    "Revise e ajuste as prioridades regularmente",
+    "Evite ter muitos cards com a mesma prioridade",
+    "Use a regra 80/20: 80% dos resultados vêm de 20% das tarefas prioritárias"
+  ]
+}
+

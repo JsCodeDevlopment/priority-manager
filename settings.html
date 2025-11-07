@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://p.trellocdn.com/power-up.min.js"></script>
+  <style>
+    body {
+      padding: 16px;
+      background: white;
+    }
+    .settings-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .settings-info {
+      font-size: 14px;
+      color: #5e6c84;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="settings-container">
+    <h3>ℹ️ Priority Manager</h3>
+    <div class="settings-info">
+      <p>Este Power-Up permite criar e gerenciar níveis de prioridade personalizados para seus cards.</p>
+      <p style="margin-top: 8px;"><strong>Como usar:</strong></p>
+      <ul style="margin-left: 20px; margin-top: 4px;">
+        <li>Use o botão "Gerenciar Prioridades" no menu do board</li>
+        <li>Clique em "Prioridade" nos cards para atribuir</li>
+      </ul>
+    </div>
+  </div>
+  
+  <script>
+    const t = TrelloPowerUp.iframe();
+    t.render(() => {
+      t.sizeTo('body');
+    });
+  </script>
+</body>
+</html>
+

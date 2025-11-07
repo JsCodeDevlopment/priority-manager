@@ -1,0 +1,21 @@
+{
+  "name": "Priority Manager",
+  "details": "Gerencie níveis de prioridade personalizados para seus cards",
+  "icon": {
+    "url": "./images/icon.png"
+  },
+  "author": "Seu Nome",
+  "capabilities": [
+    "authorization-status",
+    "card-badges",
+    "card-buttons",
+    "board-buttons",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
+
