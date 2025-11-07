@@ -151,7 +151,7 @@ TrelloPowerUp.initialize({
     });
   }
 }, {
-  appKey: 'SEU_APP_KEY_AQUI',
+  appKey: '0643bea326323a6ac5c559ee33cc7407',
   appName: 'Priority Manager'
 });
 
