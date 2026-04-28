@@ -1,44 +1,44 @@
-﻿# ðŸŽ¯ Priority Manager - Guia Completo em PortuguÃªs
+# 🎯 Priority Manager - Guia Completo em Português
 
-## ðŸŒŸ VisÃ£o Geral
+## 🌟 Visão Geral
 
-O **Priority Manager** Ã© um Power-Up para Trello que permite criar sistemas de prioridade personalizados. Ao contrÃ¡rio das etiquetas padrÃ£o do Trello, este Power-Up oferece uma interface dedicada para gerenciar nÃ­veis de prioridade com cores personalizadas que aparecem diretamente nos cards.
+O **Priority Manager** é um Power-Up para Trello que permite criar sistemas de prioridade personalizados. Ao contrário das etiquetas padrão do Trello, este Power-Up oferece uma interface dedicada para gerenciar níveis de prioridade com cores personalizadas que aparecem diretamente nos cards.
 
-## ðŸ’¡ Por que usar?
+## 💡 Por que usar?
 
-- ðŸŽ¨ **Visual**: Cores customizÃ¡veis para cada nÃ­vel de prioridade
-- ðŸš€ **RÃ¡pido**: Interface simples para atribuir prioridades
-- ðŸ“Š **Organizado**: Veja as prioridades de todos os cards rapidamente
-- ðŸ”§ **FlexÃ­vel**: Crie quantas prioridades quiser
-- ðŸ’¾ **Integrado**: Funciona nativamente dentro do Trello
+- 🎨 **Visual**: Cores customizáveis para cada nível de prioridade
+- 🚀 **Rápido**: Interface simples para atribuir prioridades
+- 📊 **Organizado**: Veja as prioridades de todos os cards rapidamente
+- 🔧 **Flexível**: Crie quantas prioridades quiser
+- 💾 **Integrado**: Funciona nativamente dentro do Trello
 
-## ðŸ“¥ InstalaÃ§Ã£o Detalhada
+## 📥 Instalação Detalhada
 
-### OpÃ§Ã£o 1: Usar GitHub Pages (Gratuito e FÃ¡cil)
+### Opção 1: Usar GitHub Pages (Gratuito e Fácil)
 
-1. **Fork ou clone este repositÃ³rio**
+1. **Fork ou clone este repositório**
    ```bash
    git clone https://github.com/seu-usuario/priority-manager.git
    cd priority-manager
    ```
 
 2. **Ative o GitHub Pages**
-   - VÃ¡ em Settings > Pages
+   - Vá em Settings > Pages
    - Em "Source", selecione "main" branch
    - Salve e aguarde alguns minutos
-   - Seu Power-Up estarÃ¡ em: `https://seu-usuario.github.io/priority-manager`
+   - Seu Power-Up estará em: `https://seu-usuario.github.io/priority-manager`
 
 3. **Configure no Trello**
    - Acesse: https://trello.com/power-ups/admin
    - Clique em "New Power-Up"
    - Preencha o Iframe connector URL com seu link do GitHub Pages
 
-### OpÃ§Ã£o 2: Usar Glitch (Mais Simples)
+### Opção 2: Usar Glitch (Mais Simples)
 
 1. **Acesse Glitch**
-   - VÃ¡ para https://glitch.com
+   - Vá para https://glitch.com
    - Clique em "New Project" > "Import from GitHub"
-   - Cole o URL deste repositÃ³rio
+   - Cole o URL deste repositório
 
 2. **Obtenha o URL**
    - Clique em "Share" > "Live Site"
@@ -47,42 +47,42 @@ O **Priority Manager** Ã© um Power-Up para Trello que permite criar sistemas d
 3. **Configure no Trello**
    - Use o URL do Glitch como Iframe connector URL
 
-### OpÃ§Ã£o 3: Servidor PrÃ³prio
+### Opção 3: Servidor Próprio
 
-Se vocÃª tem um servidor com HTTPS:
+Se você tem um servidor com HTTPS:
 
-1. FaÃ§a upload de todos os arquivos
-2. Certifique-se que estÃ¡ acessÃ­vel via HTTPS
+1. Faça upload de todos os arquivos
+2. Certifique-se que está acessível via HTTPS
 3. Use o URL do seu servidor no Trello
 
-## ðŸŽ“ Tutorial de Uso Passo a Passo
+## 🎓 Tutorial de Uso Passo a Passo
 
-### Primeira ConfiguraÃ§Ã£o
+### Primeira Configuração
 
 #### 1. Adicionar o Power-Up ao Board
 
 ```
-Board do Trello â†’ Menu â†’ Power-Ups â†’ Procurar â†’ "Priority Manager" â†’ Adicionar
+Board do Trello → Menu → Power-Ups → Procurar → "Priority Manager" → Adicionar
 ```
 
 #### 2. Criar suas Primeiras Prioridades
 
-Vamos criar um sistema bÃ¡sico de 4 nÃ­veis:
+Vamos criar um sistema básico de 4 níveis:
 
-**a) Prioridade CrÃ­tica (Vermelho)**
-- Nome: `CrÃ­tica`
+**a) Prioridade Crítica (Vermelho)**
+- Nome: `Crítica`
 - Cor: `#DC3545` (vermelho)
-- Uso: Bugs crÃ­ticos, bloqueadores
+- Uso: Bugs críticos, bloqueadores
 
 **b) Prioridade Alta (Laranja)**
 - Nome: `Alta`
 - Cor: `#FD7E14` (laranja)
 - Uso: Features importantes, prazos curtos
 
-**c) Prioridade MÃ©dia (Amarelo)**
-- Nome: `MÃ©dia`
+**c) Prioridade Média (Amarelo)**
+- Nome: `Média`
 - Cor: `#FFC107` (amarelo)
-- Uso: Tarefas importantes mas nÃ£o urgentes
+- Uso: Tarefas importantes mas não urgentes
 
 **d) Prioridade Baixa (Verde)**
 - Nome: `Baixa`
@@ -91,114 +91,114 @@ Vamos criar um sistema bÃ¡sico de 4 nÃ­veis:
 
 ### Usando no Dia a Dia
 
-#### CenÃ¡rio 1: Novo Bug Descoberto
+#### Cenário 1: Novo Bug Descoberto
 
-1. Crie um card "Bug: Login nÃ£o funciona"
+1. Crie um card "Bug: Login não funciona"
 2. Abra o card
-3. Clique no botÃ£o "Prioridade"
-4. Selecione "CrÃ­tica" (vermelho)
+3. Clique no botão "Prioridade"
+4. Selecione "Crítica" (vermelho)
 5. O card agora mostra um badge vermelho
 
-#### CenÃ¡rio 2: Planejamento de Sprint
+#### Cenário 2: Planejamento de Sprint
 
 1. Revise todos os cards na coluna "Backlog"
 2. Para cada card:
-   - Abra â†’ Clique em "Prioridade"
-   - Escolha o nÃ­vel apropriado
-3. Agora vocÃª vÃª visualmente as prioridades de todos os cards
+   - Abra → Clique em "Prioridade"
+   - Escolha o nível apropriado
+3. Agora você vê visualmente as prioridades de todos os cards
 
-#### CenÃ¡rio 3: Alterar Prioridade
+#### Cenário 3: Alterar Prioridade
 
 1. Abra o card
-2. Clique no badge de prioridade ou no botÃ£o "Prioridade"
+2. Clique no badge de prioridade ou no botão "Prioridade"
 3. Selecione a nova prioridade
-4. Pronto! A mudanÃ§a Ã© instantÃ¢nea
+4. Pronto! A mudança é instantânea
 
-## ðŸŽ¨ Guia de Cores Recomendadas
+## 🎨 Guia de Cores Recomendadas
 
-### Sistema Tradicional (4 nÃ­veis)
+### Sistema Tradicional (4 níveis)
 ```
-CrÃ­tica: #DC3545 (Vermelho escuro)
+Crítica: #DC3545 (Vermelho escuro)
 Alta:    #FD7E14 (Laranja)
-MÃ©dia:   #FFC107 (Amarelo)
+Média:   #FFC107 (Amarelo)
 Baixa:   #28A745 (Verde)
 ```
 
-### Sistema Estendido (5 nÃ­veis)
+### Sistema Estendido (5 níveis)
 ```
 Urgente: #C00000 (Vermelho sangue)
 Alta:    #FF4444 (Vermelho claro)
-MÃ©dia:   #FFA500 (Laranja)
+Média:   #FFA500 (Laranja)
 Baixa:   #FFD700 (Dourado)
 Backlog: #4CAF50 (Verde)
 ```
 
-### Sistema por Tipo (6 nÃ­veis)
+### Sistema por Tipo (6 níveis)
 ```
-Bug CrÃ­tico:  #E74C3C (Vermelho)
+Bug Crítico:  #E74C3C (Vermelho)
 Bug:          #F39C12 (Laranja)
 Feature:      #3498DB (Azul)
 Melhoria:     #9B59B6 (Roxo)
-DocumentaÃ§Ã£o: #1ABC9C (Verde Ã¡gua)
+Documentação: #1ABC9C (Verde água)
 Pesquisa:     #95A5A6 (Cinza)
 ```
 
-## ðŸ” Casos de Uso Comuns
+## 🔍 Casos de Uso Comuns
 
 ### 1. Desenvolvimento de Software
 
 **Equipe**: Desenvolvedores, QA, Product Manager
 
 **Prioridades**:
-- ðŸ”´ P0 - CrÃ­tico (Bloqueador de produÃ§Ã£o)
-- ðŸŸ  P1 - Alta (Feature principal da sprint)
-- ðŸŸ¡ P2 - MÃ©dia (Feature secundÃ¡ria)
-- ðŸŸ¢ P3 - Baixa (Nice to have)
+- 🔴 P0 - Crítico (Bloqueador de produção)
+- 🟠 P1 - Alta (Feature principal da sprint)
+- 🟡 P2 - Média (Feature secundária)
+- 🟢 P3 - Baixa (Nice to have)
 
 ### 2. Atendimento ao Cliente
 
 **Equipe**: Suporte, Customer Success
 
 **Prioridades**:
-- ðŸ”´ Urgente (Cliente VIP, problema crÃ­tico)
-- ðŸŸ  Alta (Problema afeta mÃºltiplos clientes)
-- ðŸŸ¡ Normal (SolicitaÃ§Ã£o padrÃ£o)
-- ðŸŸ¢ Baixa (DÃºvida simples)
+- 🔴 Urgente (Cliente VIP, problema crítico)
+- 🟠 Alta (Problema afeta múltiplos clientes)
+- 🟡 Normal (Solicitação padrão)
+- 🟢 Baixa (Dúvida simples)
 
 ### 3. Marketing
 
 **Equipe**: Marketing, Designers, Copywriters
 
 **Prioridades**:
-- ðŸ”´ Deadline Hoje
-- ðŸŸ  Esta Semana
-- ðŸŸ¡ Este MÃªs
-- ðŸŸ¢ PrÃ³ximo MÃªs
-- ðŸ”µ Ideias Futuras
+- 🔴 Deadline Hoje
+- 🟠 Esta Semana
+- 🟡 Este Mês
+- 🟢 Próximo Mês
+- 🔵 Ideias Futuras
 
-### 4. GestÃ£o de Projetos
+### 4. Gestão de Projetos
 
 **Equipe**: Project Managers, Stakeholders
 
 **Prioridades**:
-- ðŸ”´ Deve Ter (Must Have)
-- ðŸŸ  Deveria Ter (Should Have)
-- ðŸŸ¡ Poderia Ter (Could Have)
-- ðŸŸ¢ NÃ£o TerÃ¡ Agora (Won't Have)
+- 🔴 Deve Ter (Must Have)
+- 🟠 Deveria Ter (Should Have)
+- 🟡 Poderia Ter (Could Have)
+- 🟢 Não Terá Agora (Won't Have)
 
-## ðŸ› ï¸ PersonalizaÃ§Ã£o AvanÃ§ada
+## 🛠️ Personalização Avançada
 
-### Modificar Cores PadrÃ£o
+### Modificar Cores Padrão
 
-Edite `js/client.js` e altere a cor padrÃ£o:
+Edite `js/client.js` e altere a cor padrão:
 
 ```javascript
 colorInput.value = '#0079BF'; // Sua cor preferida
 ```
 
-### Adicionar Ãcones Personalizados
+### Adicionar Ícones Personalizados
 
-No `manifest.json`, altere o Ã­cone:
+No `manifest.json`, altere o ícone:
 
 ```json
 "icon": {
@@ -206,9 +206,9 @@ No `manifest.json`, altere o Ã­cone:
 }
 ```
 
-### Limitar NÃºmero de Prioridades
+### Limitar Número de Prioridades
 
-Em `js/client.js`, adicione validaÃ§Ã£o:
+Em `js/client.js`, adicione validação:
 
 ```javascript
 async function addPriority() {
@@ -217,110 +217,109 @@ async function addPriority() {
     alert('Limite de 10 prioridades atingido!');
     return;
   }
-  // ... resto do cÃ³digo
+  // ... resto do código
 }
 ```
 
-## ðŸ“Š Melhores PrÃ¡ticas
+## 📊 Melhores Práticas
 
-### âœ… FaÃ§a
+### ✅ Faça
 
 - Use cores distintas e contrastantes
-- Mantenha nomes curtos (mÃ¡x. 15 caracteres)
-- Crie entre 3-6 nÃ­veis (nÃ£o mais que isso)
-- Documente o significado de cada nÃ­vel
+- Mantenha nomes curtos (máx. 15 caracteres)
+- Crie entre 3-6 níveis (não mais que isso)
+- Documente o significado de cada nível
 - Revise prioridades regularmente
 
-### âŒ Evite
+### ❌ Evite
 
 - Cores muito similares (#FF0000 e #FF1111)
-- Muitos nÃ­veis de prioridade (mais de 8)
-- Nomes ambÃ­guos ("Importante", "Muito Importante")
+- Muitos níveis de prioridade (mais de 8)
+- Nomes ambíguos ("Importante", "Muito Importante")
 - Mudar prioridades sem motivo
 - Deixar cards sem prioridade
 
-## ðŸ” SeguranÃ§a e Privacidade
+## 🔐 Segurança e Privacidade
 
-- âœ… **Dados locais**: Tudo Ã© armazenado no seu board do Trello
-- âœ… **Sem servidor externo**: Nenhum dado Ã© enviado para fora
-- âœ… **CÃ³digo aberto**: VocÃª pode auditar todo o cÃ³digo
-- âœ… **Sem analytics**: NÃ£o rastreamos seu uso
+- ✅ **Dados locais**: Tudo é armazenado no seu board do Trello
+- ✅ **Sem servidor externo**: Nenhum dado é enviado para fora
+- ✅ **Código aberto**: Você pode auditar todo o código
+- ✅ **Sem analytics**: Não rastreamos seu uso
 
-## ðŸ› Problemas Comuns e SoluÃ§Ãµes
+## 🐛 Problemas Comuns e Soluções
 
-### Problema: "Power-Up nÃ£o carrega"
+### Problema: "Power-Up não carrega"
 
-**SoluÃ§Ãµes**:
-1. Verifique se o URL usa HTTPS (nÃ£o HTTP)
+**Soluções**:
+1. Verifique se o URL usa HTTPS (não HTTP)
 2. Teste o URL no navegador diretamente
 3. Limpe cache: Ctrl + Shift + Del
 4. Desative e reative o Power-Up
 
-### Problema: "Prioridades nÃ£o aparecem nos cards"
+### Problema: "Prioridades não aparecem nos cards"
 
-**SoluÃ§Ãµes**:
-1. Verifique se vocÃª atribuiu uma prioridade ao card
-2. Atualize a pÃ¡gina (F5)
-3. Verifique nas configuraÃ§Ãµes do board se o Power-Up estÃ¡ ativo
+**Soluções**:
+1. Verifique se você atribuiu uma prioridade ao card
+2. Atualize a página (F5)
+3. Verifique nas configurações do board se o Power-Up está ativo
 
-### Problema: "NÃ£o consigo adicionar prioridade"
+### Problema: "Não consigo adicionar prioridade"
 
-**SoluÃ§Ãµes**:
+**Soluções**:
 1. Certifique-se de preencher o nome
-2. Verifique se estÃ¡ logado no Trello
+2. Verifique se está logado no Trello
 3. Tente em outro navegador
 
-### Problema: "Badge nÃ£o mostra cor correta"
+### Problema: "Badge não mostra cor correta"
 
-**SoluÃ§Ãµes**:
+**Soluções**:
 1. Use cores em formato hexadecimal (#RRGGBB)
-2. Recarregue a pÃ¡gina
+2. Recarregue a página
 3. Edite e salve a prioridade novamente
 
-## ðŸ“ˆ Roadmap Futuro
+## 📈 Roadmap Futuro
 
 Funcionalidades planejadas:
 
 - [ ] Filtrar cards por prioridade
 - [ ] Ordenar listas por prioridade
-- [ ] EstatÃ­sticas de prioridades
-- [ ] Exportar/Importar configuraÃ§Ãµes
-- [ ] Ãcones customizados por prioridade
-- [ ] NotificaÃ§Ãµes de prioridade alta
-- [ ] IntegraÃ§Ã£o com automaÃ§Ã£o do Trello
+- [ ] Estatísticas de prioridades
+- [ ] Exportar/Importar configurações
+- [ ] Ícones customizados por prioridade
+- [ ] Notificações de prioridade alta
+- [ ] Integração com automação do Trello
 
-## ðŸ¤ Contribuindo
+## 🤝 Contribuindo
 
 Quer melhorar o Priority Manager? 
 
 1. Fork o projeto
 2. Crie uma branch (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanÃ§as (`git commit -m 'Adiciona MinhaFeature'`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
 4. Push para a branch (`git push origin feature/MinhaFeature`)
 5. Abra um Pull Request
 
-## ðŸ“ž Contato e Suporte
+## 📞 Contato e Suporte
 
-- ðŸ“š **DocumentaÃ§Ã£o**: Leia este README completo
-- ðŸ› **Bugs**: Abra uma issue no GitHub
-- ðŸ’¡ **SugestÃµes**: Compartilhe nas issues
-- ðŸ“§ **Email**: [seu-email@exemplo.com]
+- 📚 **Documentação**: Leia este README completo
+- 🐛 **Bugs**: Abra uma issue no GitHub
+- 💡 **Sugestões**: Compartilhe nas issues
+- 📧 **Email**: [seu-email@exemplo.com]
 
-## ðŸ™ Agradecimentos
+## 🙏 Agradecimentos
 
 Obrigado por usar o Priority Manager! 
 
 Se este Power-Up te ajudou, considere:
-- â­ Dar uma estrela no GitHub
-- ðŸ“¢ Compartilhar com sua equipe
-- ðŸ’¬ Deixar feedback
+- ⭐ Dar uma estrela no GitHub
+- 📢 Compartilhar com sua equipe
+- 💬 Deixar feedback
 
 ---
 
-**Desenvolvido com â¤ï¸ para aumentar sua produtividade no Trello**
+**Desenvolvido com ❤️ para aumentar sua produtividade no Trello**
 
-VersÃ£o 1.0.0 | Ãšltima atualizaÃ§Ã£o: 2025
-
+Versão 1.0.0 | Última atualização: 2025
 
 <br>
 <div align="center">
