@@ -4,19 +4,18 @@
   "icon": {
     "url": "./images/icon.png"
   },
-  "author": "Jonatas Silva",
+  "author": "Seu Nome",
   "capabilities": [
     "authorization-status",
     "card-badges",
     "card-buttons",
     "board-buttons",
-    "show-settings",
-    "card-detail-badges",
-    "card-back-section"
+    "show-settings"
   ],
   "connectors": {
     "iframe": {
-      "url": "./connector.html"
+      "url": "./index.html"
     }
   }
 }
+

@@ -1,15 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Priority Manager</title>
-  <link rel="stylesheet" href="./css/styles.css">
-  <script src="https://p.trellocdn.com/power-up.min.js"></script>
-</head>
-<body>
-  <div id="content"></div>
-  <script src="./js/client.js"></script>
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priority Manager</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <div
+      id="non-trello-message"
+      style="
+        display: none;
+        padding: 40px 20px;
+        text-align: center;
+        font-family: sans-serif;
+      "
+    >
+      <h2 style="color: #172b4d">Priority Manager</h2>
+      <p
+        style="
+          color: #5e6c84;
+          max-width: 400px;
+          margin: 0 auto;
+          line-height: 1.5;
+        "
+      >
+        Este é um Power-Up do Trello. Ele foi projetado para rodar dentro do
+        Trello. <br /><br />
+        Para testá-lo, instale no seu board apontando para o
+        <code>manifest.json</code> exposto pelo seu servidor de desenvolvimento
+        via ngrok (ou similar).
+      </p>
+    </div>
+    <script>
+      if (!window.TrelloPowerUp || window.self === window.top) {
+        document.getElementById("non-trello-message").style.display = "block";
+      }
+    </script>
 
+    <div
+      align="center"
+      style="
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        font-size: 14px;
+      "
+    >
+      <img
+        src="https://avatars.githubusercontent.com/u/100796752?s=400&u=ae99bd456c6b274cd934d85a374a44340140e222&v=4"
+        width="80"
+        style="border-radius: 50%"
+      />
+      <br />
+      <strong>Jonatas Silva</strong>
+      <br />
+      <span style="font-size: 12px; color: #5e6c84"
+        >Senior Software Engineer / CTO & Tech Lead at
+        <a
+          href="https://pokernetic.com/"
+          target="_blank"
+          style="color: #0052cc; text-decoration: none"
+          >PokerNetic</a
+        ></span
+      >
+    </div>
+
+    <script src="./js/client.js"></script>
+  </body>
+</html>

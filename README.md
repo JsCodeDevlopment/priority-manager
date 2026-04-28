@@ -1,40 +1,40 @@
-# 🎯 Priority Manager - Trello Power-Up
+﻿# ðŸŽ¯ Priority Manager - Trello Power-Up
 
-Um Power-Up para Trello que permite criar e gerenciar níveis de prioridade personalizados com cores para seus cards.
+Um Power-Up para Trello que permite criar e gerenciar nÃ­veis de prioridade personalizados com cores para seus cards.
 
-## 📋 Funcionalidades
+## ðŸ“‹ Funcionalidades
 
-- ✨ **Criar níveis de prioridade personalizados** com nome e cor
-- 🎨 **Escolher cores personalizadas** para cada nível
-- 📌 **Atribuir prioridades aos cards** de forma fácil e rápida
-- 👁️ **Visualização clara** com badges coloridos nos cards
-- ✏️ **Editar e excluir** prioridades existentes
-- 💾 **Armazenamento automático** no board do Trello
+- âœ¨ **Criar nÃ­veis de prioridade personalizados** com nome e cor
+- ðŸŽ¨ **Escolher cores personalizadas** para cada nÃ­vel
+- ðŸ“Œ **Atribuir prioridades aos cards** de forma fÃ¡cil e rÃ¡pida
+- ðŸ‘ï¸ **VisualizaÃ§Ã£o clara** com badges coloridos nos cards
+- âœï¸ **Editar e excluir** prioridades existentes
+- ðŸ’¾ **Armazenamento automÃ¡tico** no board do Trello
 
-## 🚀 Instalação
+## ðŸš€ InstalaÃ§Ã£o
 
 ### Passo 1: Preparar os Arquivos
 
-1. Clone ou baixe este repositório
-2. Faça upload dos arquivos para um servidor web com HTTPS (obrigatório)
-   - Você pode usar: GitHub Pages, Netlify, Vercel, Glitch, etc.
+1. Clone ou baixe este repositÃ³rio
+2. FaÃ§a upload dos arquivos para um servidor web com HTTPS (obrigatÃ³rio)
+   - VocÃª pode usar: GitHub Pages, Netlify, Vercel, Glitch, etc.
 
 ### Passo 2: Criar o Power-Up no Trello
 
 1. Acesse https://trello.com/power-ups/admin
 2. Clique em **"New Power-Up"**
-3. Preencha as informações:
+3. Preencha as informaÃ§Ãµes:
    - **Name**: Priority Manager
-   - **Description**: Gerencie níveis de prioridade personalizados para seus cards
+   - **Description**: Gerencie nÃ­veis de prioridade personalizados para seus cards
    - **Iframe connector URL**: `https://seu-dominio.com/index.html`
 
-4. Na seção **Capabilities**, habilite:
-   - ✅ Card Badges
-   - ✅ Card Buttons
-   - ✅ Board Buttons
-   - ✅ Show Settings
-   - ✅ Card Detail Badges
-   - ✅ Card Back Section
+4. Na seÃ§Ã£o **Capabilities**, habilite:
+   - âœ… Card Badges
+   - âœ… Card Buttons
+   - âœ… Board Buttons
+   - âœ… Show Settings
+   - âœ… Card Detail Badges
+   - âœ… Card Back Section
 
 5. Clique em **"Save"**
 
@@ -42,78 +42,78 @@ Um Power-Up para Trello que permite criar e gerenciar níveis de prioridade pers
 
 1. Abra um board do Trello
 2. Clique em **"Power-Ups"** no menu
-3. Procure por **"Priority Manager"** (ou o nome que você deu)
+3. Procure por **"Priority Manager"** (ou o nome que vocÃª deu)
 4. Clique em **"Add"**
 
-## 📖 Como Usar
+## ðŸ“– Como Usar
 
-### Criar Níveis de Prioridade
+### Criar NÃ­veis de Prioridade
 
-1. No board do Trello, clique no menu (três pontos)
+1. No board do Trello, clique no menu (trÃªs pontos)
 2. Clique em **"Gerenciar Prioridades"**
 3. Preencha:
-   - **Nome**: Ex: "Alta", "Média", "Baixa", "Urgente", etc.
+   - **Nome**: Ex: "Alta", "MÃ©dia", "Baixa", "Urgente", etc.
    - **Cor**: Escolha uma cor que representa a prioridade
-4. Clique em **"➕ Adicionar Prioridade"**
+4. Clique em **"âž• Adicionar Prioridade"**
 
 ### Atribuir Prioridade a um Card
 
 1. Abra um card
-2. Clique no botão **"Prioridade"** (ícone de alvo)
+2. Clique no botÃ£o **"Prioridade"** (Ã­cone de alvo)
 3. Selecione a prioridade desejada
 4. O card agora exibe um badge colorido com a prioridade
 
 ### Visualizar Prioridades
 
 As prioridades aparecem:
-- 🏷️ Como **badge** na frente do card
-- 📊 Na **seção de detalhes** quando você abre o card
-- 🎨 Com a **cor escolhida** para fácil identificação
+- ðŸ·ï¸ Como **badge** na frente do card
+- ðŸ“Š Na **seÃ§Ã£o de detalhes** quando vocÃª abre o card
+- ðŸŽ¨ Com a **cor escolhida** para fÃ¡cil identificaÃ§Ã£o
 
 ### Editar ou Excluir Prioridades
 
-1. Vá em **"Gerenciar Prioridades"**
+1. VÃ¡ em **"Gerenciar Prioridades"**
 2. Clique em:
-   - **✏️ Editar**: Para mudar nome ou cor
-   - **🗑️ Excluir**: Para remover a prioridade
+   - **âœï¸ Editar**: Para mudar nome ou cor
+   - **ðŸ—‘ï¸ Excluir**: Para remover a prioridade
 
-## 🎨 Exemplos de Prioridades
+## ðŸŽ¨ Exemplos de Prioridades
 
-Aqui estão algumas sugestões de níveis de prioridade:
+Aqui estÃ£o algumas sugestÃµes de nÃ­veis de prioridade:
 
 | Nome | Cor | Uso |
 |------|-----|-----|
-| 🔴 Crítica | `#FF4444` | Problemas urgentes que bloqueiam o trabalho |
-| 🟠 Alta | `#FF8800` | Tarefas importantes que devem ser feitas logo |
-| 🟡 Média | `#FFD700` | Tarefas importantes mas não urgentes |
-| 🟢 Baixa | `#4CAF50` | Tarefas que podem esperar |
-| 🔵 Backlog | `#2196F3` | Ideias e tarefas futuras |
+| ðŸ”´ CrÃ­tica | `#FF4444` | Problemas urgentes que bloqueiam o trabalho |
+| ðŸŸ  Alta | `#FF8800` | Tarefas importantes que devem ser feitas logo |
+| ðŸŸ¡ MÃ©dia | `#FFD700` | Tarefas importantes mas nÃ£o urgentes |
+| ðŸŸ¢ Baixa | `#4CAF50` | Tarefas que podem esperar |
+| ðŸ”µ Backlog | `#2196F3` | Ideias e tarefas futuras |
 
-## 🛠️ Estrutura do Projeto
+## ðŸ› ï¸ Estrutura do Projeto
 
 ```
 priority-manager/
-├── manifest.json          # Configuração do Power-Up
-├── index.html            # Página principal
-├── settings.html         # Página de configurações
-├── card-section.html     # Seção exibida no card
-├── css/
-│   └── styles.css       # Estilos do Power-Up
-├── js/
-│   ├── power-up.js     # Inicialização do Power-Up
-│   └── client.js       # Lógica do cliente
-├── images/
-│   └── icon.png        # Ícone do Power-Up (128x128)
-└── README.md           # Este arquivo
+â”œâ”€â”€ manifest.json          # ConfiguraÃ§Ã£o do Power-Up
+â”œâ”€â”€ index.html            # PÃ¡gina principal
+â”œâ”€â”€ settings.html         # PÃ¡gina de configuraÃ§Ãµes
+â”œâ”€â”€ card-section.html     # SeÃ§Ã£o exibida no card
+â”œâ”€â”€ css/
+â”‚   â””â”€â”€ styles.css       # Estilos do Power-Up
+â”œâ”€â”€ js/
+â”‚   â”œâ”€â”€ power-up.js     # InicializaÃ§Ã£o do Power-Up
+â”‚   â””â”€â”€ client.js       # LÃ³gica do cliente
+â”œâ”€â”€ images/
+â”‚   â””â”€â”€ icon.png        # Ãcone do Power-Up (128x128)
+â””â”€â”€ README.md           # Este arquivo
 ```
 
-## 🔧 Configuração Avançada
+## ðŸ”§ ConfiguraÃ§Ã£o AvanÃ§ada
 
-### Personalizar o Ícone
+### Personalizar o Ãcone
 
 1. Crie uma imagem PNG de 128x128 pixels
 2. Salve como `images/icon.png`
-3. Faça upload junto com os outros arquivos
+3. FaÃ§a upload junto com os outros arquivos
 
 ### Alterar o App Key
 
@@ -123,52 +123,61 @@ No arquivo `js/power-up.js`, altere a linha:
 appKey: 'SEU_APP_KEY_AQUI',
 ```
 
-Substitua `SEU_APP_KEY_AQUI` pelo App Key fornecido pelo Trello quando você criar o Power-Up.
+Substitua `SEU_APP_KEY_AQUI` pelo App Key fornecido pelo Trello quando vocÃª criar o Power-Up.
 
-## 📱 Compatibilidade
+## ðŸ“± Compatibilidade
 
-- ✅ Trello Web
-- ✅ Trello Desktop
-- ✅ Navegadores modernos (Chrome, Firefox, Safari, Edge)
+- âœ… Trello Web
+- âœ… Trello Desktop
+- âœ… Navegadores modernos (Chrome, Firefox, Safari, Edge)
 
-## 🐛 Solução de Problemas
+## ðŸ› SoluÃ§Ã£o de Problemas
 
-### O Power-Up não aparece
+### O Power-Up nÃ£o aparece
 
-- Verifique se o URL está correto e com HTTPS
+- Verifique se o URL estÃ¡ correto e com HTTPS
 - Confirme que todos os arquivos foram carregados
 - Limpe o cache do navegador
 
-### As prioridades não salvam
+### As prioridades nÃ£o salvam
 
-- Verifique se o Power-Up tem permissão de armazenamento
-- Certifique-se de que está logado no Trello
+- Verifique se o Power-Up tem permissÃ£o de armazenamento
+- Certifique-se de que estÃ¡ logado no Trello
 
 ### Erro ao adicionar prioridade
 
-- Verifique se o nome não está vazio
-- Tente recarregar a página
+- Verifique se o nome nÃ£o estÃ¡ vazio
+- Tente recarregar a pÃ¡gina
 
-## 📄 Licença
+## ðŸ“„ LicenÃ§a
 
-Este projeto é de código aberto e pode ser usado livremente.
+Este projeto Ã© de cÃ³digo aberto e pode ser usado livremente.
 
-## 🤝 Contribuições
+## ðŸ¤ ContribuiÃ§Ãµes
 
-Sugestões e melhorias são bem-vindas! 
+SugestÃµes e melhorias sÃ£o bem-vindas! 
 
-## 📞 Suporte
+## ðŸ“ž Suporte
 
-Se encontrar problemas ou tiver dúvidas:
-1. Verifique a documentação acima
-2. Consulte a [documentação oficial do Trello Power-Ups](https://developer.atlassian.com/cloud/trello/power-ups/)
-3. Abra uma issue no repositório
+Se encontrar problemas ou tiver dÃºvidas:
+1. Verifique a documentaÃ§Ã£o acima
+2. Consulte a [documentaÃ§Ã£o oficial do Trello Power-Ups](https://developer.atlassian.com/cloud/trello/power-ups/)
+3. Abra uma issue no repositÃ³rio
 
-## 🎉 Pronto!
+## ðŸŽ‰ Pronto!
 
-Agora você tem um sistema completo de prioridades personalizável para seus boards do Trello!
+Agora vocÃª tem um sistema completo de prioridades personalizÃ¡vel para seus boards do Trello!
 
 ---
 
-Desenvolvido com ❤️ para melhorar sua produtividade no Trello
+Desenvolvido com â¤ï¸ para melhorar sua produtividade no Trello
 
+
+<br>
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/100796752?s=400&u=ae99bd456c6b274cd934d85a374a44340140e222&v=4" width="100" style="border-radius: 50%" />
+  <br>
+  <strong>Jonatas Silva</strong>
+  <br>
+  Senior Software Engineer / CTO & Tech Lead at <a href="https://pokernetic.com/">PokerNetic</a>
+</div>
